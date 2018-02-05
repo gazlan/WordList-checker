@@ -1,0 +1,164 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Lister.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Lister.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LISTER DIALOGEX 0, 0, 493, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "   What's New"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Learn",IDC_STATIC,13,9,35,8
+    EDITTEXT        IDC_EDT_SRC,48,7,420,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_SRC,471,6,14,14
+    LTEXT           "Check",IDC_STATIC,13,24,35,8
+    EDITTEXT        IDC_EDT_TEST,48,22,420,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_TEST,471,21,14,14
+    LTEXT           "Output",IDC_STATIC,13,39,35,8
+    EDITTEXT        IDC_EDT_OUT,48,37,420,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_OUT,471,36,14,14
+    LTEXT           "&Map file",IDC_STATIC,13,54,35,8
+    EDITTEXT        IDC_EDT_MAP,48,52,420,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_MAP,471,51,14,14
+    GROUPBOX        "Word size",IDC_STATIC,13,69,89,53
+    LTEXT           "Min",IDC_STATIC,18,85,18,8
+    EDITTEXT        IDC_EDT_SIZE_MIN,48,83,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPN_MIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,87,82,10,14
+    LTEXT           "Max",IDC_STATIC,18,109,14,8
+    EDITTEXT        IDC_EDT_SIZE_MAX,48,105,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin2",IDC_SPN_MAX,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,87,103,10,14
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,
+                    13,127,415,14
+    PUSHBUTTON      "&Learn",IDC_BTN_LEARN,435,111,50,14
+    DEFPUSHBUTTON   "&Check",IDC_BTN_GO,435,127,50,14
+    CTEXT           "(c)   gazlan@yandex.ru   2015",IDC_STT_READY,12,127,415,
+                    14,SS_CENTERIMAGE | SS_SUNKEN | WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LISTER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 485
+        VERTGUIDE, 7
+        VERTGUIDE, 13
+        VERTGUIDE, 48
+        VERTGUIDE, 109
+        VERTGUIDE, 206
+        VERTGUIDE, 301
+        VERTGUIDE, 399
+        BOTTOMMARGIN, 141
+        HORZGUIDE, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Lister.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
